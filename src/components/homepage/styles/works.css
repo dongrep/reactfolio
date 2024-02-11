@@ -45,6 +45,11 @@
 	padding-left: 60px;
 }
 
+
+.work-subtitle ul {
+	padding: 12px;
+}
+
 .work-duration {
 	position: relative;
 	width: 150px;
