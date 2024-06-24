@@ -29,7 +29,24 @@ const INFO = {
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},
 
+	// 
+// Cloud Infra Automation | GCP, GitHub, Terraform, Packer, git, nodejs, express, linux Jan 2023 – April 2024
+// – Orchestrated Infrastructure-as-Code (IaC) deployment on GCP using Terraform, adhering to industry-leading
+// architectural and cloud design practices like immutability
+// – Automated continuous deployment workflows with GitHub Actions, integrating Packer for custom image
+// creation and load balancer setup across HTTP, TCP, and SSL protocols
+// – Implemented cloud pub/sub messaging for email verification, optimizing user authentication processes and
+// enhancing system reliability
+
 	projects: [
+		{
+			title: "Cloud Infra Automation",
+			description:
+				"Automated Infrastructure-as-Code (IaC) deployment and continuous deployment workflows on GCP using Terraform, GitHub Actions, and Packer, optimizing user authentication and system reliability with cloud pub/sub messaging. (Jan – April 2024)",
+			logo: "https://static.vecteezy.com/system/resources/previews/004/925/877/non_2x/cloud-network-icon-free-vector.jpg",
+			linkText: "View Project",
+			link: "https://github.com/MegaCorp-Inc/webapp",
+		},
 		{
 			title: "Image Processor",
 			description:
@@ -81,9 +98,10 @@ const INFO = {
 			alt: "hopstack",
 			duration: "Sept 22 - July 23",
 			desc: [
-				"Revamped front-end architecture to align with contemporary functional programming standards, resulting in a substantial 36% reduction in engineer onboarding time and a 60% acceleration in new feature integration.",
-				"Improved user interface and experience by leveraging popular libraries such as React Context, React Query, and React MUI, resulting in a 42% increase in customer retention",
-				"Executed rapid prototyping for a responsive Flowchart Conversion software with a GraphQL backend in under 2months. Reduced client onboarding time by 87% and achieved up to 24% cost savings",
+				"Revamped front-end architecture to align with contemporary functional programming standards, resulting in a 36% reduction in engineer on-boarding time and a 60% acceleration in new feature integration",
+				"Executed rapid prototyping for a responsive Flowchart Conversion software with a GraphQL backend in under 2 months. Reduced client on-boarding time by 87% and achieved up to 24% cost savings",
+				"Deployed Jira and Confluence for task management, catalyzing a 45% surge in collaboration while curtailing information mismatch by up to 80%",
+				"Translated high quality design to applications, improving customer satisfaction by 50%",
 			],
 		},
 		{
@@ -93,10 +111,9 @@ const INFO = {
 			alt: "mobiux",
 			duration: "Apr 21 - June 22",
 			desc: [
-				"Spearheaded a cross-functional team of 3 to deliver a high-impact vacation booking application within a 5-month timeframe. Utilized cutting-edge technologies such as Next.js, django, redis, cloudinary, aws, docker, git and more to ensure seamless integration of real-time data APIs and a robust backend",
-				"Accelerated development of a dynamic Flutter application, seamlessly integrating real-time data APIs, all within a remarkable timeframe of under 2 months. Demonstrated capability to rapidly produce top-quality solutions while maintaining a focus on efficiency and innovation",
-				"Led the integration of cloud technologies, including AWS services, to optimize scalability and reliability in delivering high-impact solutions. Achieved a 40% reduction in downtime and a 30% increase in system performance",
-				"Engaged in close collaboration with the design team to enrich user experience and interface design, ensuring adherence to the latest industry standards for UI.",
+				"Spearheaded a cross-functional team to deliver a high-impact web application, utilizing AWS to increase availability and reliability, reducing stack size by 30%",
+				"Accelerated industry-ready Flutter application development, integrating RESTful API, resulting in business acceleration by 25%, demonstrating rapid top-quality solutions while prioritizing efficiency and innovation",
+				"Led the integration of cloud technologies, including AWS services, resulting in a 95% reduction in downtime and a 80% increase in system performance, optimizing scalability and reliability for delivering application",
 			],
 		},
 		{
@@ -106,9 +123,8 @@ const INFO = {
 			alt: "recibo",
 			duration: "Apr 21 - June 22",
 			desc: [
-				"Designed, devised, and launched an application to showcase intuitive charts and analytical data, all while adhering to a fundamental Software Development Life Cycle (SDLC) approach",
-				"Leveraged cutting-edge technologies like Flutter and Firebase to optimize scalability and performance, resulting in a significant 35% increase in internal productivity. Demonstrated a strong commitment to innovation and efficiency",
-				"Employed GraphQL and Sequelize ORM for constructing Backend services and APIs",
+				"Designed and launched application with intuitive charts, aiding 55% increase in customer data analysis",
+				"Leveraged cutting-edge technologies like Flutter, Firebase, GraphQL to optimize scalability and performance, resulting in a significant 50% increase in internal productivity and increased company revenues by 24%",
 			],
 		},
 	],
