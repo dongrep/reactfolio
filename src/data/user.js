@@ -91,6 +91,18 @@ const INFO = {
 
 	work: [
 		{
+			title: "Tamr",
+			subtitle: "Software Engineer",
+			logo: "./tamr.png",
+			alt: "Tamr logo",
+			duration: "Jan – June 2025",
+			desc: [
+				"Migrated 20+ legacy UI components to a modern React+TypeScript+Vitestack, reducing build times by 40% and improving developer onboarding speed.",
+				"Implemented 5+ dynamic UI forms using ReactHookForm,cutting form-related bugs by 30% and streamlining validation logic.",
+				"Developed backend-driven job filters with 8+ query parameters, improving page load time by 25% and increasing user search accuracy.",
+			],
+		},
+		{
 			title: "Hopstack",
 			subtitle: "Frontend Engineer",
 			logo: "./hopstack_logo.jpeg",
