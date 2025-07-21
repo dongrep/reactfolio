@@ -12,9 +12,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur skateboarder.",
+		title: "Full-stack web and cloud engineer, and an amateur skateboarder.",
 		description:
-			"As a seasoned software engineer, I bring extensive experience primarily in front-end development. Eager to broaden my expertise, I've successfully transitioned to the backend, augmenting my skills with a proficiency in DevOps practices. This dynamic combination enables me to contribute holistically to software development life cycles. I am adept at crafting robust and scalable solutions, seamlessly integrating both front-end and back-end technologies. My multifaceted skill set positions me as a versatile professional ready to tackle the challenges of today's ever-evolving tech landscape.",
+			"I’m a Master’s student in Software Engineering at Northeastern University (’25), blending a strong front‑end and API background with hands‑on backend and DevOps expertise. I’ve built cloud‑native pipelines on AWS EKS using Terraform, Helm, Kubernetes, and Kafka microservices, and I’m exploring durable workflows with DBOS. My side projects include an agentic code explorer that incrementally analyzes Node.js functions and an end‑to‑end CVE data pipeline leveraging vector databases and LLMs. I thrive at uniting polished front‑end interfaces with resilient, scalable backend architectures across the entire software lifecycle.",
 	},
 
 	about: {
@@ -29,16 +29,15 @@ const INFO = {
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},
 
-	// 
-// Cloud Infra Automation | GCP, GitHub, Terraform, Packer, git, nodejs, express, linux Jan 2023 – April 2024
-// – Orchestrated Infrastructure-as-Code (IaC) deployment on GCP using Terraform, adhering to industry-leading
-// architectural and cloud design practices like immutability
-// – Automated continuous deployment workflows with GitHub Actions, integrating Packer for custom image
-// creation and load balancer setup across HTTP, TCP, and SSL protocols
-// – Implemented cloud pub/sub messaging for email verification, optimizing user authentication processes and
-// enhancing system reliability
-
 	projects: [
+		{
+			title: "CVE Expert system - using RAG",
+			description:
+				"End‑to‑end ingestion, processing, and storage of CVE feeds on a scalable AWS EKS Kubernetes platform. It uses Terraform, Helm, Docker and Jenkins CI/CD to provision and deploy Go‑based Kafka microservices and a custom operator for hourly vulnerability delta capture.Processed CVE data is enriched in Postgres and a vector database, enabling real‑time LLM‑driven security querying with high reliability and integrity. (May - August 2024)",
+			logo: "https://static.vecteezy.com/system/resources/previews/004/925/877/non_2x/cloud-network-icon-free-vector.jpg",
+			linkText: "View Project",
+			link: "https://github.com/csye7125-su24-team08",
+		},
 		{
 			title: "Cloud Infra Automation",
 			description:
